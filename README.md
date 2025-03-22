@@ -13,3 +13,9 @@ The project includes a pom.xml file (suggesting Maven for dependency management)
 - **pom.xml:** Maven configuration for managing dependencies.
 
 ![Folder Structure](./.images/folder-structure.png)
+
+## Test Results
+
+Click [Here](./cucumber-reports.html) to view complete test report
+
+![Test Report Image](./.images/test-results.png)

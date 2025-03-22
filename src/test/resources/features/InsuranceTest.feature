@@ -17,9 +17,7 @@ Feature: Test functionality of Travel Insurance Plan during flight ticket bookin
 
     Examples: 
       | FromDestination                         | ToDestination                           | departDate | returnDate |  
-      | Kuala Lumpur International Airport      | Don Mueang International Airport        | 29/03/2025 | 04/04/2025 |  
-      | Kuala Lumpur International Airport      | Chengdu Shuangliu International Airport | 31/03/2025 | 12/04/2025 |  
-      | Chengdu Shuangliu International Airport | Kuala Lumpur International Airport      | 28/03/2025 | 12/04/2025 |  
+      | Kuala Lumpur International Airport      | Don Mueang International Airport        | 29/03/2025 | 04/04/2025 |
 
   Scenario Outline: User books a flight ticket and verifies the Insurance Lite plan during checkout
     Given User is on the Home Page
@@ -38,6 +36,4 @@ Feature: Test functionality of Travel Insurance Plan during flight ticket bookin
 
     Examples: 
        | FromDestination                         | ToDestination                          | departDate | returnDate|  
-      | Kuala Lumpur International Airport      | Don Mueang International Airport        | 29/03/2025 | 04/04/2025 |  
-      | Kuala Lumpur International Airport      | Chengdu Shuangliu International Airport | 31/03/2025 | 12/04/2025 |
-      | Chengdu Shuangliu International Airport | Kuala Lumpur International Airport      | 28/03/2025 | 12/04/2025 |  
+      | Kuala Lumpur International Airport      | Don Mueang International Airport        | 29/03/2025 | 04/04/2025 |

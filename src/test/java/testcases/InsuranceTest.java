@@ -17,6 +17,6 @@ public class InsuranceTest extends BaseTest {
 	    homepage.setLocation("To", "Don Mueang International Airport");
 	    homepage.setdate("Depart", "30/03/2025");
 	    homepage.setdate("Return", "05/04/2025");
-	    homepage.clickhomepagesearchbtn();	    
+	    homepage.clickhomepagesearchbtn();
 	}
 }
